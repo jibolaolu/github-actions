@@ -7,9 +7,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Greeting
-        run: echo "Hello World!!"
+        run: |
+            echo "Hello World!!"
+            echo "Hello MotherLand"
       - name: Print Good Bye
-        run: echo "Good Bye"
+        run: |
+            echo "Good Bye"
+            echo "Ka sun re oo"
+        
       
 
 
